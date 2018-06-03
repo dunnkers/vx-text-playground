@@ -1,15 +1,14 @@
 ## vx-text-playground 🚀
 
-Shows off SVG `<text>` improvements using `vx-text` package.
+Shows off an improved SVG `<text>` element using [`vx-text`](https://github.com/hshoff/vx/tree/master/packages/vx-text) package.
 
 ```
 yarn start
 ```
 
-
 ![example](ex.png)
 
-### Using the following component:
+### Aligning using `<TextBox>`:
 
 ```
 <TextBox width={100} height={100}
@@ -18,8 +17,9 @@ yarn start
 </TextBox>
 ```
 
+[… more sample code](https://github.com/dunnkers/vx-text-playground/blob/master/src/App.js)
 
-### `<TextBox>`:
+### Source `<TextBox>`:
 
 ```
 import React, { Component } from 'react';
