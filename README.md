@@ -1,5 +1,12 @@
 ## vx-text-playground 🚀
 
+Shows off SVG `<text>` improvements using `vx-text` package.
+
+```
+yarn start
+```
+
+
 ![example](ex.png)
 
 ### Using the following component:
