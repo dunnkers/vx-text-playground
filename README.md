@@ -2,7 +2,7 @@
 
 Shows off an improved SVG `<text>` element using [`vx-text`](https://github.com/hshoff/vx/tree/master/packages/vx-text) package.
 
-```
+```shell
 yarn start
 ```
 
@@ -10,7 +10,7 @@ yarn start
 
 ### Aligning using `<TextBox>`:
 
-```
+```js
 <TextBox width={100} height={100}
   valign="middle" align="center">
   5
@@ -21,7 +21,7 @@ yarn start
 
 ### Source `<TextBox>`:
 
-```
+```js
 import React, { Component } from 'react';
 
 import { Text } from '@vx/text';
